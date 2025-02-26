@@ -60,14 +60,7 @@ cd wine-quality-prediction
 pip install -r requirements.txt
 ```
 
-### Usage
-```bash
-# Run the training script
-python train_model.py
 
-# Make predictions with the trained model
-python predict.py
-```
 
 ## Results
 The model's performance was assessed using the accuracy score on both the training and testing datasets. The model achieved an accuracy of 91.25%, indicating a strong ability to classify wine quality correctly. Feature importance analysis was conducted, revealing which chemical properties contribute the most to wine quality prediction. This analysis helps identify key factors such as volatile acidity, alcohol content, and sulphates, which have a significant impact on classification outcomes.
